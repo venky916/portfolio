@@ -135,7 +135,7 @@ export const PROJECTS = [
     image: project1,
     description: `Built a YouTube clone using React.js with features like live chat, nested comments, and a custom search. Optimized for performance and scalability with lazy loading and API polling.`,
     technologies: ['React.js', 'Redux', 'TailwindCSS'],
-    liveLink: 'https://youtube-clone.com',
+    liveLink: 'https://video-play-olive.vercel.app/',
     sourceCode: 'https://github.com/venky916/yt-clone',
   },
   {
@@ -143,15 +143,18 @@ export const PROJECTS = [
     image: project2,
     description: `A full-stack task management system inspired by Trello. Implemented drag-and-drop functionality, JWT authentication, and deployed on Vercel.`,
     technologies: ['React', 'Redux', 'Node.js', 'MongoDB', 'JWT'],
-    liveLink: 'https://trello-clone.com',
-    sourceCode: 'https://github.com/venky916/trello-frontend',
+    liveLink: 'https://rello-app.vercel.app/',
+    sourceCode: {
+      frontend: 'https://github.com/venky916/trello-frontend',
+      backend: 'https://github.com/venky916/trello-backend',
+    },
   },
   {
     title: 'Netflix-GPT Frontend Clone',
     image: project3,
     description: `Developed a Netflix clone with AI-powered movie suggestions. Integrated Firebase authentication and GPT for movie recommendations and search suggestions.`,
     technologies: ['React', 'Redux Toolkit', 'Firebase', 'TMDB API'],
-    liveLink: 'https://netflix-gpt.com',
+    liveLink: 'https://getfix-gpt.vercel.app/',
     sourceCode: 'https://github.com/venky916/netflix-gpt',
   },
   {
